@@ -4,7 +4,7 @@
   <head>
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Simple Transactional Email</title>
+    <title>%title%</title>
     <style>
       /* -------------------------------------
           GLOBAL RESETS
@@ -131,7 +131,7 @@
       p,
       ul,
       ol {
-        font-family: sans-serif;
+        font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
         font-size: 14px;
         font-weight: normal;
         margin: 0;
@@ -384,9 +384,17 @@
                     </tr>
                     <tr>
                       <td>
+                        <h1 class="title">%title%</h1>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
                         <p>%greeting%</p>
                         <p>%content%</p>
                         <p>%closing%</p>
+                        <p>Johannes Arnold <img class="zirkel-inline" src="http://static.avfrisia.de/frisenzirkel.svg"
+                            alt="Fs!"> <i>xx</i>
+                        </p>
                       </td>
                     </tr>
                   </table>
@@ -402,13 +410,13 @@
               <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                 <tr>
                   <td class="content-block">
-                    <span class="apple-link">Company Inc, 3 Abbey Road, San Francisco CA 94102</span>
-                    <br> Don't like these emails? <a href="http://i.imgur.com/CScmqnj.gif">Unsubscribe</a>.
+                    <span class="apple-link">Akademische Verbindung Frisia</span>
+                    <br>Oeltzenstraße 23, 30169 Hannover
                   </td>
                 </tr>
                 <tr>
                   <td class="content-block powered-by">
-                    Powered by <a href="http://htmlemail.io">HTMLemail</a>.
+                    Problem mit dieser E-Mail? <a href="mailto:info@avfrisia.de">Kontaktiere uns.</a>.
                   </td>
                 </tr>
               </table>
